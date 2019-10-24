@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/malibu"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titlelbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@color/white"
+        android:padding="45dp"
+        android:text="       E - VOTE"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlelbl"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToRegisterNow"
+        android:padding="24dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/logInbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerbtn"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToLogIn"
+        android:padding="24dp"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>

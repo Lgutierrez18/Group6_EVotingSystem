@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mountains">
+
+    <TextView
+        android:id="@+id/titleLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:text="Propostitions "
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/anouncementLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLbl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        android:longClickable="true"
+        android:text="The general election lists will be available after the primary election. The list will be available however the final votes will not be submitted until November 3rd. 2020 at 7am."
+        android:textColor="@color/white" />
+</RelativeLayout>
