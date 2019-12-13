@@ -1,0 +1,68 @@
+import java.io.*;
+import java.lang.reflect.*;
+import java.util.Arrays;
+
+import javax.security.auth.callback.*;
+import javax.security.auth.login.LoginContext;
+import javax.security.auth.Subject;
+
+
+
+
+
+
+
+
+
+
+public class SignUp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+if (args  == null || args.length == 0)  {
+	System.err.println("False Input :" + 
+			"No name provided.");
+	System.exit(-1);
+}
+
+LoginInfo li= null;
+try {
+	li = new LoginInfo(args[0], new 
+			Subject());
+}
+///catch (LoginException)) le { ///     error in catch 
+	System.out.print("Login Exception");
+//
+ 
+	System.err.println("Cannot create Login. "
+            + le.getMessage());
+        System.exit(-1);
+    } catch (SecurityException) /// error in catch
+    
+        System.err .println("Cannot create LoginInfo. "
+            + se.getMessage());
+        System.exit(-1);
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	/// having a hard time debugging the catch error
+	
+	
+	
+	
+	
+
+
